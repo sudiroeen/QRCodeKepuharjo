@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="21dp"
+        android:layout_marginTop="27dp"
+        android:layout_marginEnd="21dp"
+        android:layout_marginBottom="55dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/btn_scan"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <!--    Nama Barang    -->
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:background="@color/colorAccent"
+            android:text="Nama Barang"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textIsSelectable="true"/>
+
+        <TextView
+            android:id="@+id/tv_nama_barang"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border"
+            android:text=""
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+            android:textSize="15dp"
+            tools:ignore="PrivateResource"
+            android:textIsSelectable="true"/>
+
+        <!--    Lokasi   -->
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:background="@color/colorAccent"
+            android:text="Lokasi"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textIsSelectable="true"/>
+
+        <TextView
+            android:id="@+id/tv_lokasi"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border"
+            android:text=""
+            android:textSize="15dp"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+            android:textIsSelectable="true"/>
+
+        <!--   Tanggal    -->
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:background="@color/colorAccent"
+            android:text="Tanggal"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textIsSelectable="true"/>
+
+        <TextView
+            android:id="@+id/tv_tanggal"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border"
+            android:text=""
+            android:textSize="15dp"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+            android:textIsSelectable="true"/>
+
+        <!--   Kode     -->
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:background="@color/colorAccent"
+            android:text="Kode"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textIsSelectable="true"/>
+
+        <TextView
+            android:id="@+id/tv_kode"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border"
+            android:text=""
+            android:textSize="15dp"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+            android:textIsSelectable="true"/>
+
+        <!--   Asal Barang   -->
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:background="@color/colorAccent"
+            android:text="Asal Barang"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textIsSelectable="true"/>
+
+        <TextView
+            android:id="@+id/tv_asal_barang"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border"
+            android:text=""
+            android:textSize="15dp"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+            android:textIsSelectable="true"/>
+
+        <!--    Harga   -->
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:background="@color/colorAccent"
+            android:text="Harga"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textIsSelectable="true"/>
+
+        <TextView
+            android:id="@+id/tv_harga"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border"
+            android:text=""
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+            android:textIsSelectable="true"
+            android:textSize="15dp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_scan"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="18dp"
+        android:text="Scan QR Inventarisasi"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
+
+    <Button
+        android:id="@+id/btn_scan_map"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="18dp"
+        android:text="Scan QR Map"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+        app:layout_constraintVertical_bias="0.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">QR Code Kepuharjo</string>
+    <color name="darkgray">#A9A9A9</color>
+    <color name="white">#FFFFFF</color>
+</resources>
