@@ -1,5 +1,5 @@
 # QRCodeKepuharjo
-My Project on KKN-PPM UGM at Kepuharjo Village, Cangkringan District, Sleman City, Special Place of Yogyakarta Province.
+My Project on KKN-PPM UGM at Kepuharjo Village, Cangkringan District, Sleman City, Special Region of Yogyakarta Province.
 
 This project used to:
 1. Stocktake village's assets
