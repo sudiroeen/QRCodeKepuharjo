@@ -6,5 +6,4 @@ This project used to:
 2. Stocktake contingency map of tour destination around Merapi territory
 
 # Special Thanks To:
-  - Tiara Putri for so instructive village map
   - Siti Fathonah for help to upload this App to Google Play Store :), so thanks full
